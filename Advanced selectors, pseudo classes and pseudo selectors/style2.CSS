@@ -1,0 +1,38 @@
+body{
+    background-color:aqua;
+    color: rgb(9, 9, 190);
+}
+h1{
+    color: rgb(47, 27, 65);
+}
+a{
+    color: rgb(112, 7, 112);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(224, 103, 22);
+}
+ul>li{
+    color: rgb(3, 92, 99);
+    font-weight: 10px;
+}
+ul li:hover{
+    color: rgb(233, 14, 178);
+}
+ul li::before{
+    content:"🤩";
+}
+a::after{
+    content: "💖❤";
+}
+p::first-letter{
+    font-size: 200%;
+    color: hotpink;
+}
+p:not(:first-of-type){
+    text-decoration: underline;
+}
+P{
+    color: brown;
+    font-weight: 200%;
+}
